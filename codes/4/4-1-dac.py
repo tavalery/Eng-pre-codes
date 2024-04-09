@@ -12,7 +12,7 @@ def decimal2bin(x, n):
 
 def voltage_calculation(s: str, V: float, n: int):
     # V - max possible voltage
-    # symbols after ,
+    # n - count of symbols after ,
     s = s[::-1]
     res = 0
     d = 2
