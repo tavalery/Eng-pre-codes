@@ -85,7 +85,7 @@ try:
     # print('1 priod time:', round(time_experiment/count, 3), 'sec')
     print('общая продолжительность эксперимента:', round(time_experiment, 3), 'sec')
     print('период одного измерения:', round(time_experiment / count, 3), 'sec')
-    print('средняя частота дискретизации:', round(10 ** 3 * 1 / time_experiment / count, 3), 'mHz')
+    print('средняя частота дискретизации:', round(count / time_experiment, 3), 'Hz')
     print('шаг квантования АЦП:', 0.01289)
 
     # making graph
