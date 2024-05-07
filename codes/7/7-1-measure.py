@@ -78,7 +78,7 @@ try:
         for item in result_data:
             f.write(str(item) + '\n')
     with open('7/settings.txt', 'w') as f:
-        f.write(str(1 / time_experiment / count) + '\n')
+        f.write(str(count / time_experiment) + '\n')
         f.write('0.01289')
     
     # print('time_experiment:', round(time_experiment, 3), 'sec')
